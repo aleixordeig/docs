@@ -150,13 +150,13 @@ const sidebars = {
       type: 'category',
       label: 'Clients',
       items: [
-        'api/rpc',
         'developers/library-typescript',
         'developers/qubic-node',
         'developers/qubic-cli',
         'developers/library-go',
         'developers/library-http',
         'developers/library-csharp',
+        'api/rpc',
       ],
     },
     {

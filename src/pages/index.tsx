@@ -7,6 +7,12 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+/**
+ * HomepageHeader component
+ * 
+ * Renders the homepage header with site title, tagline, a "Get started" button, 
+ * a link to the footer, and a link to the features page.
+ */
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -19,6 +25,18 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/overview/introduction">
             Get started
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="#footer"
+            style={{ marginLeft: '10px' }}>
+            Go to Footer
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/learn/features"
+            style={{ marginLeft: '10px' }}>
+            Upcoming Features
           </Link>
         </div>
       </div>
